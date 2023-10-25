@@ -1,0 +1,16 @@
+.Contrie{
+      border: 3px solid purple;
+      padding: 15px;
+      margin: 15px;
+      border-radius: 15px;
+      margin-bottom: 10px;
+}
+.img-size{
+      max-width: 10%;
+}
+.visited{
+      background-color: rgb(196, 219, 255);
+}
+.flag-size{
+      max-width: 9%;
+}
