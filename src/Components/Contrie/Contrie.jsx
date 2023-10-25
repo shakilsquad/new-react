@@ -14,7 +14,7 @@ const Contrie = ({contrie,handelVisitedCountry,handelVisitedFlag}) => {
 
       return (
             <div className={`Contrie ${visited &&'visited'}`}>
-                  <h3 className='text-xl font-bold py-2'>Contre Name: {name.common}</h3>
+                  <h3 className='text-xl font-bold py-2'>Contre names: {name.common}</h3>
                   <img src={flags.png} alt="" />
                   <h3 className='py-2'>City Name:{capital} </h3>
                   <div className='Contrie'>
